@@ -27,7 +27,7 @@
           <a href="/change/{{$item->id}}"><span class="btn btn-danger">สถานะ : ไม่เผยแพร่</span> </a>
           @endif  
       </td>
-      <td><a href="{{route('edit', $item->id)}}" class="btn btn-primary">แก้ไขบทความ</a></td>
+      <td><a href="{{route('edit', $item->id)}}" class="btn btn-warning">แก้ไขบทความ</a></td>
       <td>
         <a href = "/delete/ {{$item ->id}}" class="btn btn-danger"
            onclick="return confirm('คุณต้องการลบบทความนี้ {{ $item ->title }} จริงหรือไม่?')">ลบ</a></td>
